@@ -14,7 +14,12 @@ const map: any = {
 
 /** User packages configuration. */
 const packages: any = {
-  chartjs: { defaultExtension: 'js', main: 'Chart.min.js' }
+  chartjs: { defaultExtension: 'js', main: 'Chart.min.js' },
+  moment: {
+      map: 'node_modules/moment/moment.js',
+      type: 'cjs',
+      defaultExtension: 'js'
+  }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
