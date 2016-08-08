@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // SystemJS configuration file, see links for more information
 // https://github.com/systemjs/systemjs
@@ -9,10 +9,12 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'chartjs': 'vendor/chart.js/'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  chartjs: { defaultExtension: 'js', main: 'Chart.min.js' }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36,6 +38,7 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/hello',
   /** @cli-barrel */
 ];
 
