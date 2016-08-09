@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as moment from 'moment';
 import 'chartjs';
 declare let Chart;
 
@@ -14,6 +13,7 @@ export class HelloComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(11);
   }
 
 }
