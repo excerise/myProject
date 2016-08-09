@@ -9,17 +9,12 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  'chartjs': 'vendor/chart.js/'
+  'chartjs': 'vendor/chart.js/' 
 };
 
 /** User packages configuration. */
 const packages: any = {
-  chartjs: { defaultExtension: 'js', main: 'Chart.min.js' },
-  moment: {
-      map: 'node_modules/moment/moment.js',
-      type: 'cjs',
-      defaultExtension: 'js'
-  }
+  chartjs: { defaultExtension: 'js', main: 'Chart.min.js' }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
